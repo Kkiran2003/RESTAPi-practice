@@ -78,6 +78,16 @@ app.patch("/posts/:id", (req, res) => {
    return res.redirect("/posts")
 })
 
+app.delete("/posts/:id",(req,res) =>{
+    let {id} = req.params;
+      posts = posts.filter((p) => id !== p.id);
+    if(!posts){
+
+        return  res.send("delete failed")
+    }
+    return res.redirect("/posts")
+
+})
 
 app.listen(port, () => {
     console.log(`server listen port ${port}`)
