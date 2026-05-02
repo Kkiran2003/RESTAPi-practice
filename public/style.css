@@ -1,0 +1,39 @@
+h1{
+    color: maroon;
+}
+.post{
+    background-color: teal;
+    color:aliceblue;
+    margin-bottom: 15px;
+}
+.user{
+    font-style: italic;
+}
+.content{
+    border: 2px solid white;
+}
+.new{
+    text-decoration: none;
+    color:white;
+    font-size: larger;
+    background-color:red;
+    padding: 4px;
+   border-radius: 10px;
+    
+}
+.detail{
+    text-decoration: none;
+    color:white;
+    font-size: larger;
+    background-color:rgb(212, 147, 6);
+    padding: 4px;
+   border-radius: 10px;
+
+}
+.back{
+    border: none;
+    text-decoration: none;
+    font-size:medium;
+    font-weight: 600;
+    color:#544f4f;
+}
