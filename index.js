@@ -16,17 +16,17 @@ app.use(express.json());
 let posts = [
     {
         id: uuidv4(),
-        username: "K.kiran",
+        username: "K.Kiran",
         content: "do it for yourself"
     },
     {
         id: uuidv4(),
-        username: "K.diksha",
+        username: "K.Diksha",
         content: "live a life Bindass"
     },
     {
         id: uuidv4(),
-        username: "gourav",
+        username: "Gourav",
         content: "find piece"
     }
 ]
